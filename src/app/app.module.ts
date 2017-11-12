@@ -3,15 +3,22 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { HeadComponent } from './head/head.component';
+import { HeaderComponent } from './header/header.component';
 import { ContentComponent } from './content/content.component';
+import { AsideComponent } from './aside/aside.component';
+import { CardComponent } from './card/card.component';
+import { FooterComponent } from './footer/footer.component';
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeadComponent,
+    HeaderComponent,
     ContentComponent,
+    AsideComponent,
+    CardComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule
