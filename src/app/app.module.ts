@@ -8,6 +8,7 @@ import { ContentComponent } from './content/content.component';
 import { AsideComponent } from './aside/aside.component';
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
+import { NavComponent } from './nav/nav.component';
 
 
 
@@ -19,6 +20,7 @@ import { FooterComponent } from './footer/footer.component';
     AsideComponent,
     CardComponent,
     FooterComponent,
+    NavComponent,
   ],
   imports: [
     BrowserModule
