@@ -9,6 +9,9 @@ import { AsideComponent } from './aside/aside.component';
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
+import { ArticleComponent } from './article/article.component';
+import { AppRoutingModule } from './/app-routing.module';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 
 
@@ -21,9 +24,12 @@ import { NavComponent } from './nav/nav.component';
     CardComponent,
     FooterComponent,
     NavComponent,
+    ArticleComponent,
+    PagenotfoundComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
