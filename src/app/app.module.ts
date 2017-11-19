@@ -12,6 +12,7 @@ import { NavComponent } from './nav/nav.component';
 import { ArticleComponent } from './article/article.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { CommentsComponent } from './comments/comments.component';
 
 
 
@@ -26,6 +27,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     NavComponent,
     ArticleComponent,
     PagenotfoundComponent,
+    CommentsComponent,
   ],
   imports: [
     BrowserModule,
