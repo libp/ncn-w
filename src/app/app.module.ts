@@ -13,6 +13,9 @@ import { ArticleComponent } from './article/article.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { CommentsComponent } from './comments/comments.component';
+import { XbackstageComponent } from './xbackstage/xbackstage.component';
+import { FaceuserComponent } from './faceuser/faceuser.component';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -28,6 +31,9 @@ import { CommentsComponent } from './comments/comments.component';
     ArticleComponent,
     PagenotfoundComponent,
     CommentsComponent,
+    XbackstageComponent,
+    FaceuserComponent,
+
   ],
   imports: [
     BrowserModule,
