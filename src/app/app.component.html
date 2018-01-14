@@ -1,1 +1,14 @@
-<router-outlet></router-outlet>
+<app-nav></app-nav>
+
+<main role="main" class="container">
+  <div class="row row-offcanvas row-offcanvas-right">
+    <div class="col-12 col-md-9">
+      <app-content></app-content>
+    </div>
+    <div class="col-12 col-md-3 sidebar-offcanvas" id="sidebar">
+      <app-aside></app-aside>
+    </div>
+  </div>
+</main>
+<app-footer></app-footer>
+

@@ -9,13 +9,10 @@ import { AsideComponent } from './aside/aside.component';
 import { CardComponent } from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavComponent } from './nav/nav.component';
-import { ArticleComponent } from './article/article.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
-import { CommentsComponent } from './comments/comments.component';
 import { XbackstageComponent } from './xbackstage/xbackstage.component';
-import { FaceuserComponent } from './faceuser/faceuser.component';
-import { TestComponent } from './test/test.component';
+import {AdminModule} from "./admin/admin.module";
 
 
 
@@ -28,16 +25,26 @@ import { TestComponent } from './test/test.component';
     CardComponent,
     FooterComponent,
     NavComponent,
-    ArticleComponent,
     PagenotfoundComponent,
-    CommentsComponent,
     XbackstageComponent,
-    FaceuserComponent,
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AdminModule
+    // ,
+  ],
+  exports: [
+    AppComponent,
+    HeaderComponent,
+    ContentComponent,
+    AsideComponent,
+    CardComponent,
+    FooterComponent,
+    NavComponent,
+    PagenotfoundComponent,
+    XbackstageComponent,
   ],
   providers: [],
   bootstrap: [AppComponent]
